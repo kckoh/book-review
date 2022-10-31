@@ -7,15 +7,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>KC Book Review</title>
+        <title>HTML5 + CSS + Js book review</title>
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
 
       <main>
-        <Header title="Book Review" />
-      
-        <Link href='/html_css_javascript'>HTML5 + CSS3 + JavaScript로 배우는 웹프로그래밍 기초</Link>
+        <Header title="HTML5 + CSS3 + JavaScript로 배우는 웹프로그래밍 기초 by Hwang Ki Tae" />
+        <p> </p>
+        <Link href='/html_css_javascript/chapter/1'> Chapter 1</Link>
+        
       </main>
 
       <Footer />
