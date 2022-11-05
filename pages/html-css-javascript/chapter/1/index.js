@@ -3,19 +3,20 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Chapter1() {
   return (
     <div className="container">
       <Head>
-        <title>KC Book Review</title>
+        <title>chapter 1</title>
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
 
       <main>
-        <Header title="Book Review" />
-      
-        <Link href='/html-css-javascript'>HTML5 + CSS3 + JavaScript로 배우는 웹프로그래밍 기초</Link>
+        <Header title="Chapter1" />
+        <Link href='1/html-structure'> html 문서의 구조</Link>
+        
+        
       </main>
 
       <Footer />

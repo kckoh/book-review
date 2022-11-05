@@ -14,8 +14,8 @@ export default function Home() {
 
       <main>
         <Header title="HTML5 + CSS3 + JavaScript로 배우는 웹프로그래밍 기초 by Hwang Ki Tae" />
-        <p> </p>
-        <Link href='/html_css_javascript/chapter/1'> Chapter 1</Link>
+        
+        <Link href='/html-css-javascript/chapter/1'> Chapter 1</Link>
         
       </main>
 

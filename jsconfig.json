@@ -7,7 +7,7 @@
     }
   },
   "i18n": {
-    "locales": ["en-US"],
+    "locales": ["en-US", "ko_KR"],
     "defaultLocale": "en-US",
   },
 }
